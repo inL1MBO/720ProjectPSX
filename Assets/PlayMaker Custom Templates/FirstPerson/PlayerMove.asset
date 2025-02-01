@@ -212,7 +212,7 @@ MonoBehaviour:
     ResetVariablesOnEnable: 0
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 225
+    editorFlags: 497
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
