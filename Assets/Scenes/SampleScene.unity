@@ -3588,7 +3588,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -3755,7 +3755,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -5676,37 +5676,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184780012}
   m_CullTransparentMesh: 1
---- !u!1 &1205521335
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1205521337}
-  m_Layer: 0
-  m_Name: DropDownController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1205521337
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205521335}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.834438, y: -0.9691166, z: -4.9882827}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1217259707
 GameObject:
   m_ObjectHideFlags: 0
@@ -6453,12 +6422,18 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.UiDropDownClearOptions
+        - HutongGames.PlayMaker.Actions.UiDropDownClearOptions
+        - HutongGames.PlayMaker.Actions.UiDropDownClearOptions
+        - HutongGames.PlayMaker.Actions.UiDropDownClearOptions
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 8d4bb503
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000010000000200000003000000
+        actionHashCodes: 8d4bb5038d4bb5038d4bb5038d4bb503
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -6470,6 +6445,30 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 677003377}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 757654576}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 683548816}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1005582640}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -6495,11 +6494,14 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000
+        paramDataType: 14000000140000001400000014000000
         paramName:
         - gameObject
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
+        - gameObject
+        - gameObject
+        - gameObject
+        paramDataPos: 00000000010000000200000003000000
+        paramByteDataSize: 00000000000000000000000000000000
     events: []
     globalTransitions: []
     variables:
@@ -8367,7 +8369,6 @@ SceneRoots:
   - {fileID: 644207430}
   - {fileID: 149643109}
   - {fileID: 1006342401}
-  - {fileID: 1205521337}
   - {fileID: 938849449}
   - {fileID: 718614115}
   - {fileID: 1496439522}
