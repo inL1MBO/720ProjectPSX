@@ -75,8 +75,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: rig|idle (1)
-      takeName: rig|idle
+      name: rig|interact2 (1)
+      takeName: rig|interact2
       internalID: -518154144676478023
       firstFrame: 0
       lastFrame: 31
@@ -86,7 +86,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
